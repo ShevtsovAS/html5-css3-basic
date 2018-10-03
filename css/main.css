@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div, p, button, span, a {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    margin-top: 0;
+    background: url("../img/sinie-linii-chernyy-fon-vladstudio-9d5ca98.jpg") no-repeat center top;
+    padding-top: 47px;
+    padding-bottom: 500px;
+}
+
+.offer {
+    margin-top: 246px;
+    color: #34ce57;
+}
+
+.offer p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.skills {
+    height: 500px;
+    padding-top: 117px;
+}
+
+.merits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.unit {
+    width: 340px;
+}
+
+.unit h3 {
+    margin: 10px 0;
+}
+
+.unit img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.photos img {
+    width: 350px;
+    height: 250px;
+}
+
+.btn {
+    background: yellow;
+    color: #000;
+    font-weight: 800;
+    width: 236px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 0;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #c69500;
+}
+
+footer {
+    margin-top: 116px;
+    background: #000;
+    color: #fff;
+    font-size: 11px;
+}
+
+.footer-text {
+    display: flex;
+    padding: 55px 0;
+}
+
+.footer-item {
+    margin-right: 73px;
+}
